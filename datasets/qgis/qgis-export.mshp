@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.3.2">
+    <MODULE library="shapes_points" id="10" name="Add Polygon Attributes to Points">
+      <OPTION type="table_fields" id="FIELDS" name="Attributes">1</OPTION>
+      <INPUT type="shapes" id="INPUT" name="Points">
+        <FILE>/private/var/folders/jh/jkyzld8n5kx7h8q0lrk3s_d00000gn/T/processing_3880775e888e4610b585d263408e22e3/b15d8493720f49faa3a4199144556186/INPUT.shp</FILE>
+      </INPUT>
+      <INPUT type="shapes" id="POLYGONS" name="Polygons">
+        <FILE>/Users/juan/OneDrive/Trabajo/docencia/2019-2020/otros/Curso Visualizacion de Datos/datasets/portland/shapefiles/Police_Districts_PPB/Police_Districts_PPB.shp</FILE>
+      </INPUT>
+      <OUTPUT type="shapes" id="OUTPUT" name="Result">INPUT [Police_Districts_PPB]</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE></FILE>
+    <DATABASE>
+      <FIELDS>
+        <FIELD TYPE="STRING">Address</FIELD>
+        <FIELD TYPE="STRING">Case Numbe</FIELD>
+        <FIELD TYPE="STRING">Crime Agai</FIELD>
+        <FIELD TYPE="STRING">Neighborho</FIELD>
+        <FIELD TYPE="LONGINT">Number of</FIELD>
+        <FIELD TYPE="STRING">Occur Date</FIELD>
+        <FIELD TYPE="STRING">Occur Mont</FIELD>
+        <FIELD TYPE="LONGINT">Occur Time</FIELD>
+        <FIELD TYPE="STRING">Offense Ca</FIELD>
+        <FIELD TYPE="LONGINT">Offense Co</FIELD>
+        <FIELD TYPE="STRING">Offense Ty</FIELD>
+        <FIELD TYPE="DOUBLE">OpenDataLa</FIELD>
+        <FIELD TYPE="DOUBLE">OpenDataLo</FIELD>
+        <FIELD TYPE="LONGINT">OpenDataX</FIELD>
+        <FIELD TYPE="LONGINT">OpenDataY</FIELD>
+        <FIELD TYPE="STRING">Report Dat</FIELD>
+        <FIELD TYPE="STRING">ReportMont</FIELD>
+        <FIELD TYPE="LONGINT">OBJECTID</FIELD>
+      </FIELDS>
+    </DATABASE>
+    <PROJECTION>
+      <OGC_WKT>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]]</OGC_WKT>
+      <PROJ4>+proj=longlat +a=6378137.000000 +b=6356752.314245 +no_defs</PROJ4>
+      <EPSG>-1</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>
